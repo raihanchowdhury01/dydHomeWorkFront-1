@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+/* manubar design  */
+.menuBar>li{
+    margin-right: 50px;
+
+}

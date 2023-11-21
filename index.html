@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- tailwindcss cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <!-- bootstrap 5 cdn link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body class="">
+    <!-- this is nav bar  -->
+    <nav class=" bg-blue-500 inline-grid grid-cols-3 gap-4 w-full items-center position-absolute ">
+         <!-- this is navbar logo  -->
+         <div class="logo ml-10 w-[10%]"  >
+           <img class="rounded-full" src="./Image/favicon.png" alt="">
+        </div>
+        <!-- this is owner name  -->
+        <div>
+            <h3 class="text-white text-2xl">Md Raihan Hossan</h3>
+        </div>
+        <!-- this is nav manu  -->
+        <div>
+            <ul class="menuBar flex py-4 text-white">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="body">
+   <div class="first_person_section d-flex align-items-center">
+    <div class="text_about_raihan text-center">
+        <h3 class="text-2xl">Hi , I'm Raihan</h3>
+        <p>My name is Md Raihan Chowdhury! <br> I want to be a web developer.</p>
+     </div>
+
+     <div class="raihan_pic rounded w-full mt-[10%]">
+        <img class="w-100 rounded-[10%]" src="https://scontent.fdac1-1.fna.fbcdn.net/v/t39.30808-6/402650758_1503996830453660_2225057990009209889_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFQFOlrRu_IpbWsYqvP74V602R_W0H-jPnTZH9bQf6M-Q4jeM-oIYiNpdlfaKWAKgwPEuwvqqq4yj2DCBYjICy7&_nc_ohc=FCEf2OyiWeUAX8Exw_C&_nc_zt=23&_nc_ht=scontent.fdac1-1.fna&oh=00_AfCIL8aGfXAtqt-8O0vZGerHTfSoYHY8UfOxKGZJPuacbg&oe=65624B4F" alt="">
+     </div>
+   </div>
+     
+</div>
+
+
+<!-- bootstrap 5 cdn link  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
